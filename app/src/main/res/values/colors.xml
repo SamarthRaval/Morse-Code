@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#2b84a6</color>
+    <color name="colorAccent">#30CC30</color><!-- #D81B60 -->
+    <color name="colorLightGrey">#FBFBFB</color>
+    <color name="colorTrainingNextWordText">#7ABC41</color>
+    <color name="colorTrainingButton">#FBFBFB</color>
+    <color name="colorResetTrainingButton">#FF4040</color>
+    <color name="colorOrangeAccent">#FC9628</color>
+    <color name="colorGrey">#696969</color>
+    <color name="colorButtonGrey">#CFCFCF</color>
+    <color name="colorBlack">#000000</color>
+</resources>

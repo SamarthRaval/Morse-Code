@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "616797501809",
+    "firebase_url": "https://morsecode-f4c96.firebaseio.com",
+    "project_id": "morsecode-f4c96",
+    "storage_bucket": "morsecode-f4c96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616797501809:android:1b007887ccf7a80b",
+        "android_client_info": {
+          "package_name": "com.example.pauld.morsecode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616797501809-66kmsa9lmnp5tlo09238v2bm11qvnslk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pauld.morsecode",
+            "certificate_hash": "30f2bbe3d3982e917eac84f461e5e29ecbdbe8c6"
+          }
+        },
+        {
+          "client_id": "616797501809-1gor01kd1an44dp10k80u261aah3din4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoEO4BVaD_wfqDAlZzCJF68FBu9cvyNKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616797501809-1gor01kd1an44dp10k80u261aah3din4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

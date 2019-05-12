@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TrainingScreenNextWordTextSize">30sp</dimen>
+    <dimen name="TrainingScreenNextWordMarginTop">15dp</dimen>
+    <dimen name="TrainingScreenNextLetterMarginTop">5dp</dimen>
+    <dimen name="TrainingScreenNextLetterTextSize">50sp</dimen>
+    <dimen name="TrainingButtonCircleDiameter">300dp</dimen>
+    <dimen name="TrainingResetButtonDiameter">80dp</dimen>
+    <dimen name="TrainingButtonTextSize">42sp</dimen>
+    <dimen name="TrainingResetButtonMargins">20dp</dimen>
+    <dimen name="TrainingResetButtonTextSize">20sp</dimen>
+    <dimen name="TrainingMorseInputMarginBottom">35dp</dimen>
+    <dimen name="TrainingMorseProgressBarWidth">200dp</dimen>
+    <dimen name="TrainingMorseProgressBarHeight">20dp</dimen>
+    <dimen name="TrainingMorseProgressBarMarginBottom">20dp</dimen>
+    <dimen name="TrainingMorseProgressBarMarginLeft">20dp</dimen>
+    <dimen name="LessonLandingTitleMarginTop">20dp</dimen>
+    <dimen name="LessonLandingTitleTextSize">50sp</dimen>
+    <dimen name="LessonLandingListMarginTop">20dp</dimen>
+    <dimen name="FreestyleAddLetterTextSize">17sp</dimen>
+    <dimen name="FreestyleCurrentInputSize">45sp</dimen>
+    <dimen name="MorseHelpTextSize">35sp</dimen>
+
+    <dimen name="TextToMorseInputTextSize">30sp</dimen>
+    <dimen name="TextToMorseOutputTextSize">40sp</dimen>
+    <dimen name="TextToMorseMorseCodeSize">50sp</dimen>
+
+    <dimen name="MorseDictionaryItemSize">8sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorLightGrey">
+
+    <TextView
+        android:id="@+id/freestyle_current_total_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/TrainingScreenNextWordMarginTop"
+        android:text="Default"
+        android:textColor="@color/colorOrangeAccent"
+        android:lines="1"
+        android:textSize="@dimen/FreestyleCurrentInputSize" />
+
+    <Button
+        android:id="@+id/freestyle_add_letter_btn"
+        android:layout_height="@dimen/TrainingResetButtonDiameter"
+        android:layout_width="@dimen/TrainingResetButtonDiameter"
+        android:layout_margin="@dimen/TrainingResetButtonMargins"
+        android:layout_alignParentStart="true"
+        android:text="@string/AddLetterBtn"
+        android:textSize="@dimen/FreestyleAddLetterTextSize"
+        android:layout_below="@id/freestyle_current_total_input"
+        android:background="@drawable/circular_add_letter_button"/>
+
+    <Button
+        android:id="@+id/freestyle_reset_input_btn"
+        android:layout_height="@dimen/TrainingResetButtonDiameter"
+        android:layout_width="@dimen/TrainingResetButtonDiameter"
+        android:layout_margin="@dimen/TrainingResetButtonMargins"
+        android:layout_alignParentEnd="true"
+        android:text="@string/ResetInputBtn"
+        android:textSize="@dimen/FreestyleAddLetterTextSize"
+        android:layout_below="@id/freestyle_current_total_input"
+        android:background="@drawable/training_screen_circular_reset_button"/>
+
+    <Button
+        android:id="@+id/morse_help"
+        android:layout_height="@dimen/TrainingResetButtonDiameter"
+        android:layout_width="@dimen/TrainingResetButtonDiameter"
+        android:layout_margin="@dimen/TrainingResetButtonMargins"
+        android:layout_centerInParent="true"
+        android:text="@string/MorseHelp"
+        android:textSize="@dimen/MorseHelpTextSize"
+        android:layout_below="@id/freestyle_current_total_input"
+        android:background="@drawable/circular_help_button"/>
+
+    <RelativeLayout
+        android:id="@+id/freestyle_screen_button_view"
+        android:layout_below="@+id/freestyle_reset_input_btn"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/training_screen_circular_button">
+
+        <View
+            android:id="@+id/freestyle_screen_button"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/TrainingButtonCircleDiameter"
+            android:layout_height="@dimen/TrainingButtonCircleDiameter"
+            android:background="@drawable/training_screen_circular_button"/>
+
+        <TextView
+            android:id="@+id/freestyle_current_predicted_letter"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/TrainingButtonTextSize"/>
+
+        <TextView
+            android:id="@+id/freestyle_current_morse_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/TrainingMorseInputMarginBottom"
+            android:textStyle="bold"
+            android:textSize="@dimen/TrainingButtonTextSize"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/freestyle_screen_reset_button"
+        android:layout_height="@dimen/TrainingResetButtonDiameter"
+        android:layout_width="@dimen/TrainingResetButtonDiameter"
+        android:layout_margin="@dimen/TrainingResetButtonMargins"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/ResetBtn"
+        android:textSize="@dimen/TrainingResetButtonTextSize"
+        android:background="@drawable/training_screen_circular_reset_button"/>
+
+    <TextView
+        android:id="@+id/blanktextview"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <ProgressBar
+        android:id="@+id/freestyle_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="@dimen/TrainingMorseProgressBarWidth"
+        android:layout_height="@dimen/TrainingMorseProgressBarHeight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginBottom="@dimen/TrainingMorseProgressBarMarginBottom"
+        android:layout_marginStart="@dimen/TrainingMorseProgressBarMarginLeft"/>
+
+</RelativeLayout>

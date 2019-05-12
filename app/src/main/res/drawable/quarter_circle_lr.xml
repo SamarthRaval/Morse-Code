@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--
+This is XML for the buttons found in the corner of the landing page
+
+Generating half circle shapes was based on the information obtained in the following StackOverflow post:
+https://stackoverflow.com/questions/39700576/how-to-draw-quarter-circle-in-xml-android
+
+Author: George Faraj B00638341
+-->
+<item>
+    <shape
+        android:shape="rectangle">
+        <size android:height="15dp" android:width="15dp"/>
+        <solid android:color="@color/colorPrimaryDark"/>
+        <corners android:topLeftRadius="25dp" android:bottomRightRadius="0dp"/>
+    </shape>
+</item>
+</selector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+This shape is used to create a custom action bar with a blank View component.
+
+Making a thin bottom border is pretty standard but was based on the following information
+ https://stackoverflow.com/questions/1598119/is-there-an-easy-way-to-add-a-border-to-the-top-and-bottom-of-an-android-view
+
+Author: George Faraj B00638341
+ -->
+<item >
+    <shape android:shape="rectangle">
+        <solid android:color="@color/colorOrangeAccent"/>
+    </shape>
+</item>
+
+<item android:bottom="4dp">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/colorPrimaryDark"/>
+    </shape>
+</item>
+
+</layer-list>

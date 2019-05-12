@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".textToMorseActivity">
+
+    <EditText
+        android:id="@+id/txt_inputText"
+        android:layout_width="342dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/text_border"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="@string/defaultTtoMHint"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:padding="10dp"
+        android:textSize="@dimen/TextToMorseInputTextSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_currentWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/text_border"
+        android:maxLines="2"
+        android:minWidth="150dp"
+        android:text="@string/defaultTtoMWord"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/TextToMorseOutputTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_currentLetter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:padding="10dp"
+        android:text="@string/defaultTtoMLetter"
+        android:textColor="#000000"
+        android:textSize="@dimen/TextToMorseOutputTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_currentMorse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/text_border"
+        android:maxLines="1"
+        android:minWidth="150dp"
+        android:paddingEnd="2dp"
+        android:paddingStart="2dp"
+        android:text="@string/defaultTtoMMorseCode"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/TextToMorseMorseCodeSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_generate"
+        android:layout_marginBottom="32dp"
+        android:text="Generate Morse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/oval_button"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:id="@+id/emptyBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="@dimen/TrainingMorseProgressBarWidth"
+        android:layout_height="@dimen/TrainingMorseProgressBarHeight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginBottom="@dimen/TrainingMorseProgressBarMarginBottom"
+        android:layout_marginLeft="@dimen/TrainingMorseProgressBarMarginLeft"
+        android:visibility="invisible"/>
+</android.support.constraint.ConstraintLayout>

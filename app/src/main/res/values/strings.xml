@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MorseCode</string>
+    <string name="MorseCodeDot">•</string>
+    <string name="MorseCodeDash">−</string>
+    <string name="ResetBtn">Reset</string>
+    <string name="AddLetterBtn">Add Letter</string>
+    <string name="ResetInputBtn">Clear Input</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="textToMorse">Text To Morse</string>
+    <string name="morseToText">Morse To Text</string>
+    <string name="settings">Settings</string>
+    <string name="TrainingScreenNav">Training Screen</string>
+    <string name="LoginScreenNav">Login Screen</string>
+    <string name="InputOutputNav">Input/Output</string>
+    <string name="ChatScreenNav">Chat Screen</string>
+    <string name="LessonLandingTitle">Lesson List</string>
+    <string name="lessons">Lessons</string>
+    <string name="MorseHelp">?</string>
+
+    <string name="CommonAlphabetLesson">E T A I N O S E S N T O I A T A E N I S A O E T S</string>
+    <string name="FullAlphabetLesson">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
+    <string name="ShortNumberLesson">0 1 2 3 4 5 6 7 9 10 11 22 33 44 55 66 77 88 99 00</string>
+    <string name="VeryShortWordLesson1">THE AND FOR ARE BUT NOT YOU ALL ANY CAN HER MOM</string>
+    <string name="VeryShortWordLesson2">WAS ONE OUR OUT DAY GET HAS HIM HIS HOW MAN DAD</string>
+    <string name="ShortWordLesson">THAT BELL CAKE ZERO WALK UNIT TEAM SAFE PAGE OPEN EACH</string>
+    <string name="MediumWordLesson1">ABOVE BEHIND CHEESE COUNT DANCE LADDER OCEAN QUEEN</string>
+    <string name="MediumWordLesson2">USUAL TWICE SPRING RECORD POLICE NEEDLE LAUGH JELLY</string>
+    <string name="LongNumberLesson">11 63 128 255 512 1023 9305 7542 6422 23085 84757</string>
+    <string name="LongWordLesson">AUTUMN BUSINESS DANGEROUS HUSBAND KITCHEN NEWSPAPER PHOTOGRAPH</string>
+    <string name="defaultTtoMHint">Enter text you want to convert to Morse!</string>
+    <string name="defaultTtoMWord">Word</string>
+    <string name="defaultTtoMLetter">W</string>
+    <string name="defaultTtoMMorseCode">•--</string>
+
+    <string name="emailTextView">Email</string>
+    <string name="passwordTextView">Password</string>
+    <string name="registerBtn">Register</string>
+
+    <string name="hapticSetting">Haptic</string>
+    <string name="soundSetting">Sound</string>
+    <string name="lightSetting">Light</string>
+    <string name="soundFreqSetting">Sound Frequency</string>
+    <string name="speedSetting">Input / Output Speed Setting</string>
+
+    <string name="defaultText">Default Text</string>
+    <string name="defaultChar1">L</string>
+    <string name="defaultChar2">A</string>
+    <string name="defaultMorse1">• − • •"</string>
+    <string name="defaultMorse2">- • − • -"</string>
+
+</resources>
