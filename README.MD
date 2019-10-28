@@ -2,16 +2,13 @@
 ### MorseCode App
 #### CSCI 4176 Mobile Computing Project (Fall 2018)
 Group 16:
+* Samarth Raval          B00812673
 * Dinesh Sai Bayireddi   B00791584
 * George Faraj           B00638341
 * Paul Duchesne          B00332119
-* Samarth Raval          B00812673
 * Tom Smith              B00694293
 
-For questions about this project send an email to [Paul](mailto:paulduchesne1337@gmail.com).
-
-This project used GitHub for version control and can be accessed [here](https://github.com/PJDuchesne/MorseCode). The only marker with a Github account is listed below.
-* Abhishek Kumar Singh (ab649582@dal.ca)
+For questions about this project send an email to [Samarth](mailto:samraval111194@gmail.com).
 
 # Project Summary
 
